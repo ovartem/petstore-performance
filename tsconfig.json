@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "ts-dist",
+    "target": "ES2020",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "checkJs": false,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "lib": ["ES6"],
+    "types": ["node", "k6"],
+    "typeRoots": ["node_modules/ovartem-petstore-api/dist/types", "node_modules/@types"]
+  },
+  "exclude": [
+    "node_modules",
+  ],
+  "include": ["src"]
+}
